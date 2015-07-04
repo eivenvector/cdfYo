@@ -8,10 +8,20 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UITextFieldDelegate{
+    
+    @IBOutlet weak var inputString: UITextField!
+    
+    @IBOutlet weak var outputString: UILabel!
+    
+    var inputS: String!
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        self.inputString.delegate = self
+        
+        
         // Do any additional setup after loading the view, typically from a nib.
     }
 
@@ -19,6 +29,15 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    func textFieldShouldReturn(textField: UITextField) -> Bool {
+        textField.resignFirstResponder()
+        inputS = inputString.text
+        var inputNSS = NSString(string: inputS)
+        var inputD = inputNSS.doubleValue
+        return true
+    }
+
 
 
 }
