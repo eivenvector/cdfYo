@@ -35,6 +35,8 @@ class ViewController: UIViewController, UITextFieldDelegate{
         inputS = inputString.text
         var inputNSS = NSString(string: inputS)
         var inputD = inputNSS.doubleValue
+        var outputD = CDF(inputD)
+        outputString.text = "\(outputD)"
         return true
     }
 
