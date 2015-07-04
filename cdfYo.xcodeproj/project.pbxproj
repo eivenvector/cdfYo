@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		24F8FF621B47958000A4FEB3 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F8FF611B47958000A4FEB3 /* Model.swift */; };
 		2CBA30F51B47942900916870 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CBA30F41B47942900916870 /* AppDelegate.swift */; };
 		2CBA30F71B47942900916870 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CBA30F61B47942900916870 /* ViewController.swift */; };
 		2CBA30FA1B47942900916870 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CBA30F81B47942900916870 /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		24F8FF611B47958000A4FEB3 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		2CBA30EF1B47942900916870 /* cdfYo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cdfYo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CBA30F31B47942900916870 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2CBA30F41B47942900916870 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 			children = (
 				2CBA30F41B47942900916870 /* AppDelegate.swift */,
 				2CBA30F61B47942900916870 /* ViewController.swift */,
+				24F8FF611B47958000A4FEB3 /* Model.swift */,
 				2CBA30F81B47942900916870 /* Main.storyboard */,
 				2CBA30FB1B47942900916870 /* Images.xcassets */,
 				2CBA30FD1B47942900916870 /* LaunchScreen.xib */,
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24F8FF621B47958000A4FEB3 /* Model.swift in Sources */,
 				2CBA30F71B47942900916870 /* ViewController.swift in Sources */,
 				2CBA30F51B47942900916870 /* AppDelegate.swift in Sources */,
 			);
@@ -411,6 +415,7 @@
 				2CBA31101B47942900916870 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2CBA31111B47942900916870 /* Build configuration list for PBXNativeTarget "cdfYoTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +424,7 @@
 				2CBA31131B47942900916870 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
